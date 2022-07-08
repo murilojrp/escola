@@ -13,9 +13,9 @@ ___
 ## Implementações
 
 * Construir API com CRUD (GetAll, GetById, Persistir (ver modelo no repositório "backend-v2" no service de clientes) e Delete) para todas as tabelas.
+  * Pessoas
   * Alunos
   * Professores
-    * Não vai haver uma rota para consumir ou inserir registro na tabela de pessoas. Sempre que tentar cadastrar um aluno ou professor, deve-se validar pelo "cpfcnpj" se aquela pessoa já existe para vincular a chave estrangeira nessas duas tabelas. Caso a pessoa não exista, deve-se criar o registro na tabela pessoas e vincular o registro na tabela de alunos ou professores, de acordo com a situação.
   * Disciplinas
   * Notas
 
