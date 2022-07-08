@@ -32,3 +32,7 @@ ___
       * Caso a média < 5, 'Nome do Aluno, você está reprovado';
       * Caso a média >= 5 && < 7, 'Nome do Aluno, você está em recuperação'.
       * Caso a média >= 7, 'Nome do Aluno, você está aprovado!'
+* Criar uma rota para calcular a média de todos os alunos de uma disciplina dentro de determinado período.
+  * Será enviado na requisição um JSON com o id da disciplina e uma data inicial e final;
+  * Para cada aluno, retornar a média e uma mensagem conforme os mesmos requisitos da implementação anterior.
+  * Retornar todos os alunos em um ARRAY de JSON, com sua média e a mensagem.
